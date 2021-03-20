@@ -41,24 +41,26 @@ li {
 	width: 100%;
 	z-index: 24;		/*前面にヘッダーを持ってくる。違う要素に24以上を指定すると隠れるので注意*/
 	/*スティッキーヘッダーに必要なもの end*/
+	
 }
 
 .header-logo{
 	float:left;
 	font-weight:bold;	/* 太字 */
 	font-size:20px;
+	text-align: center;
 	/*padding:10px 20px;*/
 }
 
 .header a, a:visited {	/* リンクを触っても、ロゴの色を白のままに */
 	color: #fff;	/* 他にlink, visiter, hover, activeがある */
-	vertical-align: middle;
 }
 
 
 .header-list li{	/* 各ページ上部の"Gallery" "Diary" "このサイトについて"の部分。" */
 	float:right;
 	font-size:16px;
+	text-align: center;
 	/*padding:15px 18px;*/
 }
 
