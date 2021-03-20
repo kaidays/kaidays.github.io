@@ -26,6 +26,11 @@ a {
 	text-decoration:none;	/* リンクの下線を消す */
 }
 
+a.about {
+	margin-left:10px;
+}
+
+
 li {
 	list-style:none;	/* リストの黒点を消す */
 }
@@ -48,7 +53,7 @@ li {
 	float:left;
 	font-weight:bold;	/* 太字 */
 	font-size:20px;
-	padding:10px 20px;
+	padding:10px 10px;
 }
 
 .header a, a:visited {	/* リンクを触っても、ロゴの色を白のままに */
