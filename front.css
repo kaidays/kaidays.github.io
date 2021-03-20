@@ -48,8 +48,7 @@ li {
 	float:left;
 	font-weight:bold;	/* 太字 */
 	font-size:20px;
-	text-align: center;
-	/*padding:10px 20px;*/
+	padding:10px 20px;
 }
 
 .header a, a:visited {	/* リンクを触っても、ロゴの色を白のままに */
@@ -60,8 +59,7 @@ li {
 .header-list li{	/* 各ページ上部の"Gallery" "Diary" "このサイトについて"の部分。" */
 	float:right;
 	font-size:16px;
-	text-align: center;
-	/*padding:15px 18px;*/
+	padding:13px 15px;
 }
 
 .main {
