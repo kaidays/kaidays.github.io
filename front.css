@@ -1,0 +1,83 @@
+﻿* {
+	margin: 0px;	/* アスタリスクは「全ての要素に適用する」 */
+	padding: 0px;	/* これしないと余白できる ふぁっきん */
+}
+
+body {
+	margin:auto; /* ブラウザによりcssのデフォが違い、余白できたりするのでリセ*/
+	background-color: #20b2aa;
+}
+
+a {
+	text-decoration:none;	/* リンクの下線を消す */
+}
+
+li {
+	list-style:none;	/* リストの黒点を消す */
+}
+
+.header {
+	height:50px;
+	background-color:#05445c;
+	color:#fff;
+	/*スティッキーヘッダーに必要なもの start*/
+	position: fixed;	/*画面内に固定する*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 24;		/*前面にヘッダーを持ってくる。違う要素に24以上を指定すると隠れるので注意*/
+	/*スティッキーヘッダーに必要なもの end*/
+}
+
+.header-logo{
+	float:left;
+	font-weight:bold;	/* 太字 */
+	font-size:20px;
+	padding:10px 20px;
+}
+
+.header a, a:visited {	/* リンクを触っても、ロゴの色を白のままに */
+	color: #fff;	/* 他にlink, visiter, hover, activeがある */
+}
+
+
+.header-list li{	/* 各ページ上部の"Gallery" "Diary" "このサイトについて"の部分。" */
+	float:right;
+	font-size:16px;
+	padding:12px 18px;
+}
+
+.main {
+	padding-top: 50px;	/*  ヘッダーを固定しているので、その分余白を取っています（これいる？） */
+	height: 100%;
+	background-color: #20b2aa;
+}
+
+.main-all {	/* main要素全てを囲む<div>に適用。左端から20px余白を取る */
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box1 {
+	padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #000000;
+    background: #25ccc4;/*背景色*/
+}
+
+.main-title {	/* main要素内のタイトルに適用。 */
+	color: #fff;
+}
+
+.main-title:after {	/* この中身は全て「文字列の下に、下線(グラデーション)を引く」ためのコード */
+	position: relative;
+	content: "";
+	display: block;
+	height: 4px;
+	/* background: -webkit-linear-gradient(to right, #fff, transparent);
+	   background: linear-gradient(to right, #fff, transparent); */
+}
+
+.text-white {
+	color: #fff;
+}
