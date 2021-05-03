@@ -79,6 +79,7 @@ li {
 
 
 .main-all {	/* main要素全てを囲む<div>に適用。左端から20px余白を取る */
+	padding-top: 20px; /*新規追加*/
 	padding-left: 20px;
 	padding-right: 20px;
 }
