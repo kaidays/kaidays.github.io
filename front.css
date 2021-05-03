@@ -7,23 +7,24 @@
 ②{要素名}.{クラス名}：①の適用範囲を限定したパターン。特定の要素に、対象クラス名が付加されている場合、CSSが適用される。
 
 [#]id
-①
 
 */
 
 
 * {
 	margin: 0px;
-	padding: 0px;	/* これしないと余白ができてしまう ふぁっきん */
+	padding: 0px;
+	/*上記を行う事で、余白を消す事ができる*/
 }
 
 body {
-	margin:auto; /* ブラウザによりcssのデフォが違い、余白できたりするのでリセ*/
+	margin:auto; /*ブラウザによりcssのデフォが違う為、余白できたりするのでリセット*/
 	background-color: #20b2aa;
 }
 
-a {
-	text-decoration:none;	/* リンクの下線を消す */
+
+a { /*[Anchor要素] 主に、別ページへのリンクを行う場合に使用する*/
+	text-decoration:none;	/*リンクの下線を消す*/
 }
 
 a.about {
@@ -32,7 +33,7 @@ a.about {
 
 
 li {
-	list-style:none;	/* リストの黒点を消す */
+	list-style:none; /*リストの黒点を消す*/
 }
 
 .header {
@@ -49,7 +50,7 @@ li {
 	
 }
 
-.header-logo{
+.header-logo{ /*画面左上の部分*/
 	float:left;
 	font-weight:bold;	/* 太字 */
 	font-size:20px;
@@ -57,19 +58,18 @@ li {
 	padding:10px 10px;
 }
 
-.header a, a:visited {	/* リンクを触っても、ロゴの色を白のままに */
-	color: #fff;	/* 他にlink, visiter, hover, activeがある */
+.header a, a:visited {	/*header要素のリンクを触っても、ロゴの色を白のままにする設定*/
+	color: #fff;
 }
 
-
-.header-list li{	/* 各ページ上部の"Gallery" "Diary" "このサイトについて"の部分。" */
+.header-list li{	/*画面右上の部分*/
 	float:right;
 	font-size:16px;
 	padding:15px 10px;
 }
 
 .main {
-	padding-top: 50px;	/*  ヘッダーを固定しているので、その分余白を取っています（これいる？） */
+	/* padding-top: 50px; */	/*  ヘッダーを固定しているので、その分余白を取っています（これいる？） */
 	height: 100%;
 	background-color: #20b2aa;
 }
