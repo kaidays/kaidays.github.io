@@ -104,7 +104,7 @@ li {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
-    border: solid 3px #20b2aa;
+    border: solid 3px #ffffff;
 }
 .tipbox .box-title {
     position: absolute;
@@ -115,7 +115,7 @@ li {
     height: 25px;
     line-height: 25px;
     font-size: 17px;
-    background: #20b2aa;
+    background: #1c9993;
     color: #ffffff;
     font-weight: bold;
     border-radius: 5px 5px 0 0;
