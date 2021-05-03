@@ -90,19 +90,38 @@ li {
     background: #25ccc4;/*背景色*/
 }
 
-.main-title {	/* main要素内のタイトルに適用。 */
-	color: #fff;
-}
 
-.main-title:after {	/* この中身は全て「文字列の下に、下線(グラデーション)を引く」ためのコード */
-	position: relative;
-	content: "";
-	display: block;
-	height: 4px;
-	/* background: -webkit-linear-gradient(to right, #fff, transparent);
-	   background: linear-gradient(to right, #fff, transparent); */
-}
 
-.text-white {
-	color: #fff;
+/*-------------------------*/
+/*[使用時]
+	<div class="tipbox">
+		<span class="box-title">ここにタイトル</span>
+		<p>ここに文章</p>
+	</div>
+*/
+
+.tipbox {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #20b2aa;
 }
+.tipbox .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #20b2aa;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.tipbox p {
+    margin: 0; 
+    padding: 0;
+}
+/*-------------------------*/
