@@ -79,8 +79,8 @@ li {
 
 
 .main-yohaku {	/* main要素全てを囲む<div>に適用。左端から20px余白を取る */
-	padding-top: 10px; /*新規追加*/
-	padding-bottom: 10px; /*新規追加*/
+	padding-top: 20px; /*新規追加*/
+	padding-bottom: 20px; /*新規追加*/
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -107,7 +107,7 @@ li {
     margin: 2em 0;
     padding: 0.5em 1em;
     border: solid 3px #196785;
-	background: #257b9c;
+	background: #8fb6c4;
 }
 .tipbox .box-title {
     position: absolute;
