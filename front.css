@@ -78,7 +78,7 @@ li {
 /* ここから下は消してもいい */
 
 
-.main div {	/* main要素全てを囲む<div>に適用。左端から20px余白を取る */
+.main-yohaku {	/* main要素全てを囲む<div>に適用。左端から20px余白を取る */
 	padding-top: 10px; /*新規追加*/
 	padding-bottom: 10px; /*新規追加*/
 	padding-left: 20px;
