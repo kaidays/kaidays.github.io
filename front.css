@@ -20,20 +20,13 @@ body {
 	background-color: #20b2aa;
 }
 
-body.header {
-	font-family: 'Kazesawa-Regular';
-}
-
-
 a { /*[Anchor要素] 主に、別ページへのリンクを行う場合に使用する*/
 	text-decoration:none;	/*リンクの下線を消す*/
 }
 
 a.about {
 	margin-right:10px; /*Aboutの配置を、画面右端から少し離す為に記載*/
-	font-family: 'Kazesawa-Regular';
 }
-
 
 li {
 	list-style:none; /*リストの黒点を消す*/
@@ -114,3 +107,8 @@ li {
     padding: 0;
 }
 /*-------------------------*/
+
+
+a.kazesawa {
+	font-family: 'Kazesawa-Regular';
+}
