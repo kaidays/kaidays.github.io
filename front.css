@@ -19,6 +19,9 @@ body {
 	margin:auto; /*ブラウザによりcssのデフォが違う為、余白できたりするのでリセット*/
 	background-color: #20b2aa;
 }
+body.header {
+	font-family: 'Kazesawa-Regular';
+}
 
 
 a { /*[Anchor要素] 主に、別ページへのリンクを行う場合に使用する*/
@@ -65,7 +68,6 @@ li {
 	float:right;
 	font-size:16px;
 	padding:15px 10px;
-	font-family: ‘Noto Sans JP’, sans-serif;
 }
 
 .main {
