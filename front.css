@@ -91,42 +91,6 @@ li {
     background: #25ccc4;/*背景色*/
 }
 
-
-
-/*-------------------------*/
-/*[使用時]
-	<div class="tipbox">
-		<span class="box-title">ここにタイトル</span>
-		<p>ここに文章</p>
-	</div>
-*/
-
-.tipbox {
-    position: relative;
-    margin: 2em 0;
-    padding: 0.5em 1em;
-    border: solid 3px #196785;
-	background: #8fb6c4;
-}
-.tipbox .box-title {
-    position: absolute;
-    display: inline-block;
-    top: -27px;
-    left: -3px;
-    padding: 0 9px;
-    height: 25px;
-    line-height: 25px;
-    font-size: 17px;
-    background: #196785;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 5px 5px 0 0;
-}
-.tipbox p {
-    margin: 0; 
-    padding: 0;
-}
-/*-------------------------*/
 /*-------------------------*/
 /*
 <div class="husenbox">
