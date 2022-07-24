@@ -7,9 +7,7 @@
 ②{要素名}.{クラス名}：①の適用範囲を限定したパターン。特定の要素に、対象クラス名が付加されている場合、CSSが適用される。
 
 [#]id
-
 */
-
 
 * {
 	margin: 0px;
@@ -28,12 +26,13 @@ a { /*[Anchor要素] 主に、別ページへのリンクを行う場合に使�
 }
 
 a.about {
-	margin-right:10px;
+	margin-right:10px; /*Aboutの配置を、画面右端から少し離す為に記載*/
 }
 
 
 li {
 	list-style:none; /*リストの黒点を消す*/
+	/*header(上部固定)の、Gallery,Daily,Aboutを表示する為に必要*/
 }
 
 .header {
@@ -69,7 +68,7 @@ li {
 }
 
 .main {
-	padding-top: 50px; /*スティッキーヘッダー(画面上部にタブ固定)をしている為、その分上側に余白を取っている*/
+	padding-top: 40px; /*スティッキーヘッダー(画面上部にタブ固定)をしている為、その分上側に余白を取っている*/
 	height: 100%;
 	background-color: #20b2aa;
 }
@@ -78,9 +77,9 @@ li {
 /* ここから下は消してもいい */
 
 
-.main-yohaku {	/* main要素全てを囲む<div>に適用。左端から20px余白を取る */
-	padding-top: 10px;
-	padding-bottom: 10px;
+.main-yohaku {	/* main要素全てを囲む<div>に適用。左端から10px余白を取る */
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
